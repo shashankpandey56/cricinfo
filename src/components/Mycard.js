@@ -38,7 +38,7 @@ export default function Mycard({ match }) {
             variant="contained"
             color="primary"
           >
-            Show Detail
+            Show Details
           </Button>
           <Button style={{ marginLeft: 5 }} variant="contained" color="primary">
             Start Time {new Date(match.dateTimeGMT).toLocaleString()}
